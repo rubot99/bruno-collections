@@ -1,0 +1,22 @@
+info:
+  name: Create Account
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: https://localhost:7119/account/
+  body:
+    type: json
+    data: |-
+      {
+          "accountHolderName": "John Smith"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

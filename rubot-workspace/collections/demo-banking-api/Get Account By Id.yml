@@ -1,0 +1,16 @@
+info:
+  name: Get Account By Id
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: https://localhost:7119/account/e74edaec-ed47-468a-978e-3357eb76678a
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

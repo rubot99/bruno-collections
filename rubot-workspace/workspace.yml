@@ -1,0 +1,12 @@
+opencollection: 1.0.0
+info:
+  name: "rubot-workspace"
+  type: workspace
+
+collections:
+  - name: "demo-banking-api"
+    path: "collections/demo-banking-api"
+
+specs:
+
+docs: ''

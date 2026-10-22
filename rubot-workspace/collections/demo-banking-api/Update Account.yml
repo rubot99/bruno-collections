@@ -1,0 +1,23 @@
+info:
+  name: Update Account
+  type: http
+  seq: 6
+
+http:
+  method: PUT
+  url: https://localhost:7119/account/
+  body:
+    type: json
+    data: |-
+      {
+        "accountNumber": "123456789",
+        "accountHolderName": "John Smith"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

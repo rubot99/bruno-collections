@@ -5,7 +5,7 @@ info:
 
 http:
   method: DELETE
-  url: https://localhost:7119/account/e74edaec-ed47-468a-978e-3357eb76678a
+  url: https://localhost:7119/accounts/e74edaec-ed47-468a-978e-3357eb76678a
   auth: inherit
 
 settings:
